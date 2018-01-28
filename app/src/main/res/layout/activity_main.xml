@@ -24,24 +24,6 @@ g
         android:textSize="16sp" />
 
     <TextView
-        android:id="@+id/text_street_address"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginLeft="16dp"
-        android:layout_weight="1"
-        android:text="2465 Latham St"
-        android:textSize="16sp" />
-
-    <TextView
-        android:id="@+id/text_city_state_zip"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginLeft="16dp"
-        android:layout_weight="1"
-        android:text="Mountain View, CA 94043"
-        android:textSize="16sp" />
-
-    <TextView
         android:id="@+id/text_phone"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
@@ -55,9 +37,17 @@ g
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginLeft="16dp"
-        android:layout_weight="2"
+        android:layout_weight="1"
         android:text="www.udacity.com"
         android:textSize="16sp" />
 
+    <TextView
+        android:id="@+id/text_street_address"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_weight="2"
+        android:text="2465 Latham St, Mountain View, CA 94043"
+        android:textSize="16sp" />
 
 </LinearLayout>
